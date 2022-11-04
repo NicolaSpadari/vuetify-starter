@@ -1,15 +1,15 @@
 <route>
     {
-        name: "Home",
+        name: "About",
         meta: {
-            "order": 1
+            "order": 2
         }
     }
 </route>
 
 <template>
     <v-container class="fill-height">
-        <HelloWorld />
+        <CustomCard />
     </v-container>
 </template>
 
@@ -21,7 +21,7 @@
         meta: [
             {
                 name: "description",
-                content: "Homepage description"
+                content: "About description"
             }
         ]
     });

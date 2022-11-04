@@ -1,5 +1,7 @@
 <template>
     <v-app>
+        <Navbar />
+        <Sidebar />
         <v-main>
             <router-view v-slot="{ Component }">
                 <Suspense>

@@ -1,7 +1,10 @@
 <route>
-{
-    name: "404"
-}
+    {
+        name: "404",
+        meta: {
+            order: 0
+        }
+    }
 </route>
 
 <template>

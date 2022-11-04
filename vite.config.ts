@@ -38,18 +38,19 @@ export default defineConfig({
                 "vue",
                 "vue-router",
                 "@vueuse/core",
-                "@vueuse/head"
+                "@vueuse/head",
+                {
+                    vuetify: ["useTheme"]
+                }
             ],
             resolvers: [dirResolver()]
         })
     ],
-    define: {
-        "process.env": {}
-    },
     server: {
         fs: {
             allow: [".."]
         },
-        host: true
+        host: true,
+        port: 3000
     }
 });

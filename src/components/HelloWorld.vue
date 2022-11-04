@@ -22,6 +22,7 @@
                     :href="repoLink"
                     min-width="164"
                     variant="text"
+                    target="_blank"
                 >
                     <v-icon
                         icon="mdi-github"
