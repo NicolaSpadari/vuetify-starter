@@ -22,7 +22,7 @@ $ npm i
 $ npm run dev
 ```
 
-App will launch on `http://localhost:5173`
+App will launch on `http://localhost:3000`
 
 ### Build
 
