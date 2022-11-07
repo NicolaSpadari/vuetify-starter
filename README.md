@@ -18,8 +18,8 @@ This is a straightforward starter template made with Vuetify 3 (based on Vite) f
 ```sh
 $ npx degit NicolaSpadari/vuetify-starter my-vuetify-app
 $ cd my-vuetify-app
-$ npm i
-$ npm run dev
+$ ni
+$ nr dev
 ```
 
 App will launch on `http://localhost:3000`
@@ -27,5 +27,5 @@ App will launch on `http://localhost:3000`
 ### Build
 
 ```sh
-npm run build
+$ nr build
 ```
